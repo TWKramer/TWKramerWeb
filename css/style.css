@@ -5,6 +5,8 @@ body{
     font-size: 20px;
 }
 
+
+
 .container{
     width: 80%;
     margin: auto;
@@ -16,5 +18,42 @@ body{
 
     padding: 5px 50px;
 
+    color: rgb(199, 199, 199);
 
+
+}
+
+.main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: rgb(93, 93, 93)
+}
+
+ul.main_menu {
+    margin-top: 15px;
+
+}
+
+.main_menu li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    font-variant: small-caps;
+
+}
+
+.main_menu a:hover {
+    color: #59d5d8;
+}
+
+.github-link {
+    color: #0026ff;
 }
