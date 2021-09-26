@@ -1,7 +1,8 @@
 body{
-    background-image: url(fao.jpg);
+    background-color: rgb(227, 227, 227);
     background-size: 100%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 
 
     font-family: Arial, Helvetica, sans-serif;
@@ -11,21 +12,19 @@ body{
 
 
 .container{
-    background-image: url(skyline.jpg);
-    width: 70%;
+    width: 100%;
     margin: auto;
 }
 .box-1{
-
+    background-image: url(spacepic.jpg);
     background-color: rgb(223, 223, 223);
 
-    border: 5px rgb(92, 23, 23) solid;
+    border: 5px rgb(113, 113, 113) solid;
 
     padding: 5px 50px;
 
-    color: rgb(0, 0, 0);
-
-    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    
 
 
 }
@@ -79,6 +78,15 @@ ul.main_menu {
 }
 .centering{
     text-align: center;
+    text-shadow: 0 0 5px #000000,
+             0 0 7px black,
+             0 0 10px black,
+             0 0 21px white,
+             0 0 42px white,            
+             0 0 82px white,
+             0 0 92px white,
+             0 0 120px white;
+
     
 }
 
