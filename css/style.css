@@ -49,9 +49,6 @@ ul.main_menu {
 
 }
 
-.container a {
-    opacity: 0.5;
-}
 .main_menu a {
     text-decoration:none;
     color: rgb(116, 29, 29);
