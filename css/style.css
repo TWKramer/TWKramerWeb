@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(227, 227, 227);
-    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: 50%;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -9,22 +9,41 @@ body{
     font-size: 20px;
 }
 
+#headerBox{
+    background-color: rgb(231, 252, 124);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 75px;
+    position: fixed;
+    color: white;
+    
+}
+
 
 
 .container{
-    width: 100%;
-    margin: auto;
+    width: 97%;
+    max-width: 97%;
+    max-height: 100%;
+    margin:auto;
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+    
 }
 .box-1{
-    background-image: url(spacepic.jpg);
-    background-color: rgb(223, 223, 223);
+    background-color: #b7e0ff;
 
-    border: 5px rgb(113, 113, 113) solid;
+    border: 13px #91cfff solid;
+    border-radius: 50px 250px 50px 50px;
 
-    padding: 5px 50px;
-
-    color: rgb(255, 255, 255);
+    color: rgb(255, 155, 155);
     
+    bottom: 20px;
+    left: 0;
+
 
 
 }
@@ -33,7 +52,8 @@ body{
     padding: 5px 0 5px 0;
     text-align: center;
     line-height: 32px;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px 250px 50px 50px;
 }
 
 ul.main_menu {
@@ -43,14 +63,14 @@ ul.main_menu {
 
 .main_menu li {
     display: inline;
-    padding: 0 10px 0 10px;
+    padding: 0 15px 0 50px;
     font-size: 16px;
 
 }
 
 .main_menu a {
     text-decoration:none;
-    color: rgb(116, 29, 29);
+    color: rgb(42, 103, 167);
     padding: 8px;
     font-variant: small-caps;
     font-weight:900;
@@ -77,25 +97,78 @@ ul.main_menu {
     color: rgb(0, 0, 0);
 }
 .centering{
-    text-align: center;
-    text-shadow: 0 0 5px #000000,
-             0 0 7px black,
-             0 0 10px black,
+    text-align: left;
+    line-height: 0%;
+    margin-left: 2%;
+    padding: 0px;
+    margin: 0;
+    text-shadow: 0 0 5px white,
+             0 0 7px white,
+             0 0 10px white,
              0 0 21px white,
              0 0 42px white,            
              0 0 82px white,
              0 0 92px white,
              0 0 120px white;
-
-    
 }
 
 .lorems{
-    color: white;
+    color: #ffff3d;
     opacity: 0.7;
     padding: 5px 50px;
 }
 
 
+body {
+    background:#2d2d2d;
+    top: 100px;
+}  
+  .arrows {
+      width: 60px;
+      height: 72px;
+      position: absolute;
+      left: 50%;
+      margin-left: -30px;
+      bottom: 20px;
+  }
+  
+  .arrows path {
+      stroke: #ffff3d;
+      fill: transparent;
+      stroke-width: 1px;	
+      animation: arrow 2s infinite;
+      -webkit-animation: arrow 2s infinite; 
+  }
+  
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  .arrows path.a1 {
+      animation-delay:-1s;
+      -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+  }
+  
+  .arrows path.a2 {
+      animation-delay:-0.5s;
+      -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+  }
+  
+  .arrows path.a3 {	
+      animation-delay:0s;
+      -webkit-animation-delay:0s; /* Safari 和 Chrome */
+  }
 
 
