@@ -1,14 +1,5 @@
-@media (max-width: 500px){
-    body{
-        background-color: green;
-    }
-
-}
-
-
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     background-color: rgb(255, 251, 208);
 
 }
@@ -30,6 +21,14 @@ body{
     0 0 10px rgb(255, 188, 72),
     0 0 21px white;
     opacity: .975;
+}
+@media screen and (max-width: 500px){
+    .headerBox{
+        
+    
+      
+    
+    }
 }
 
 .headerBox h1 {
@@ -74,8 +73,15 @@ body{
     border-style: double;
     height: 36em;
 }
-
-
+@media screen and (max-width: 500px){
+    .box-1{
+        background-color: rgb(2, 51, 0);
+        height:24em;
+        top: 30%;
+        width:94%;
+    
+    }
+}
 .centering{
     font-family: 'Monoton', cursive;
     position:absolute;
@@ -89,7 +95,14 @@ body{
              0 0 82px rgb(255, 255, 255),
              0 0 92px rgb(255, 255, 255);
 
+}
 
+@media screen and (max-width: 500px){
+    {
+    
+      
+    
+    }
 }
 
 
@@ -101,12 +114,29 @@ body{
 
  
 }
+
+@media screen and (max-width: 500px){
+    .h1_1{
+        font-size: 1.2em;
+    
+      
+    
+    }
+}
 .h1_2{
     font-size: 2.4em;
     position:relative;
     top: 2.75em;
     left: 11em;
 
+}
+@media screen and (max-width: 500px){
+    .h1_2{
+        font-size: 1.2em;
+    
+      
+    
+    }
 }
 
 .h1_3{
@@ -116,6 +146,14 @@ body{
     left: 10.05em;
 
 
+}
+@media screen and (max-width: 500px){
+    .h1_3{
+        font-size: 1.2em;
+    
+      
+    
+    }
 }
 
 
