@@ -193,6 +193,8 @@ body{
 }
 @media screen and (max-width: 500px){
     .main_menu {
+        font-size: .5em;
+        right: 5em;
         
     }
 }
