@@ -191,6 +191,11 @@ body{
     0 0 21px rgb(0, 140, 255);
     
 }
+@media screen and (max-width: 500px){
+    .main_menu {
+        
+    }
+}
 
 
 .main_menu li {
@@ -201,6 +206,18 @@ body{
     letter-spacing: 5px;
     line-height: .935em;
     padding-bottom: .23em;
+}
+
+@media screen and (max-width: 300px){
+    .main_menu li {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .main_menu li {
+        font-size: 5em;
+    }
 }
 
 .main_menu a {
@@ -293,3 +310,4 @@ body{
       animation-delay:0s;
       -webkit-animation-delay:0s; /* Safari 和 Chrome */
   }
+
