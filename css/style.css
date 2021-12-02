@@ -28,15 +28,7 @@ body{
     0 0 21px white;
     opacity: .975;
 }
-@media screen and (max-width: 500px){
-    .headerBox{
-        
-        
-    
-      
-    
-    }
-}
+
 
 .headerBox h1 {
     position:relative;
@@ -47,15 +39,8 @@ body{
     z-index: 2;
     bottom: 1em;
     width: 50%;
+    left:1em;
 }
-
-@media screen and (max-width: 500px){
-        .headerBox h1{
-            padding-left: 2.1em;          
-    }
-}
-    
-
 
 
 
@@ -80,8 +65,8 @@ body{
 .box-1{
     background-color:  rgb(32, 32, 32);
     font-family: 'Gruppo', cursive;
-    width: 30%;
-    border-radius: 100px 0px 0px 100px;
+    width: 90%;
+    border-radius: 100px 100px 100px 100px;
     color: rgb(255, 255, 255);
     top: 10%;
     right: 0%;
@@ -99,15 +84,6 @@ body{
     0 0 21px  rgb(0, 110, 255),
     0 0 25px rgb(255, 255, 255);
    
-}
-@media screen and (max-width: 500px){
-    .box-1{
-        height:24em;
-        top:30%;
-        width:94%;
-        right:2%;
-        border-radius: 100px 100px 100px 100px;
-    }
 }
 
 .centering{
@@ -134,12 +110,7 @@ body{
     position:relative;
     left:1em; 
 }
-@media screen and (max-width: 500px){
-    .h1_1 {
-        padding-left: 2.5em;
-        font-size: 1.2em;   
-}
-}
+
 
 .h1_2{
 
@@ -147,13 +118,7 @@ body{
     top: 2.75em;
     left: 1em;
 }
-@media screen and (max-width: 500px){
-    .h1_2 {
-        padding-left: 5.8em;;
-        font-size: 1.2em;  
-        font-size: 1.2em;
-}
-}
+
 
 .h1_3{
 
@@ -161,20 +126,14 @@ body{
     top: 3.3em;
     left: 1em;
 }
-@media screen and (max-width: 500px){
-    .h1_3 {
-        padding-left: 5.45em;;
-        font-size: 1.2em;  
 
-}
-}
 
 
 
 
 
 .container{
-    top: 0px;
+    top: 4em;
     height: 35em;
     width: 100%;
     position:relative;
@@ -191,36 +150,19 @@ body{
     0 0 21px rgb(0, 140, 255);
     
 }
-@media screen and (max-width: 300px){
-    .main_menu {
-        font-size: .5em;
-        right: 5em;
-        
-    }
-}
+
 
 
 .main_menu li {
     font-family: 'Gruppo', cursive;
     position:relative;
     display:block;
-    font-size: 7em;
-    letter-spacing: 5px;
-    line-height: .935em;
+    font-size: 6em;
+    letter-spacing: .05em;
+    line-height: .5em;;
     padding-bottom: .23em;
 }
 
-@media screen and (max-width: 300px){
-    .main_menu li {
-        font-size: 1em;
-    }
-}
-
-@media screen and (max-width: 300px){
-    .main_menu li {
-        font-size: 5em;
-    }
-}
 
 .main_menu a {
     text-decoration:none;
