@@ -191,7 +191,7 @@ body{
     0 0 21px rgb(0, 140, 255);
     
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 300px){
     .main_menu {
         font-size: .5em;
         right: 5em;
