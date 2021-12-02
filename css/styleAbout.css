@@ -1,5 +1,3 @@
-
-
 body{
     font-size: 20px;
     background-image: repeating-linear-gradient(90deg, rgb(0, 0, 0) , rgb(34, 42, 53));
@@ -94,12 +92,14 @@ body{
     width: 100%;
     border-radius: 100px 100px 100px 100px;
     color: rgb(255, 255, 255);
-    bottom: 1.5em;
+    top:10%;
     position:absolute;
     border-style:solid;
-    height: 26em;
-    width:35em;
-    right:1.5em;   /*  <<<<<<<  this could be questionable*/
+    height: 8%;
+    bottom: 82%;
+    width: 98%;
+    left: 1%;
+    right:1%;
     box-shadow: 0 0 3px inset rgb(255, 255, 255),
     0 0 7px inset rgb(0, 134, 243),
     0 0 10px inset rgb(0, 110, 255),
@@ -119,6 +119,7 @@ body{
     font-family: 'Gruppo', cursive;
     text-align: center;
     margin-top: 0px;
+    bottom: .4em;
     position: relative;
     border-radius: 50px 50px 50px 50px;
     text-shadow: 0 0 3px rgb(255, 255, 255),
@@ -129,11 +130,12 @@ body{
 .menuArea li {
     font-family: 'Gruppo', cursive;
     position:relative;
-    display:block;
-    font-size: 7em;
+    display:inline-block;
+    font-size: 2.7em;
     letter-spacing: .1em;
-    line-height: .7em;
-    padding-bottom: 0px;
+    line-height: 1.2em;
+    text-align: center;
+    right:.2em;
     
 }
 .menuArea a {
@@ -141,7 +143,11 @@ body{
     color: rgb(0, 0, 0);
     font-variant: small-caps;
     font-weight:900;
+    margin-left: .5em;
+    margin-right: .5em;
+  
 }
+
 .menuArea a:hover {
     color: #ffffff;
 }
