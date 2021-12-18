@@ -1,3 +1,4 @@
+
 body{
     font-size: 20px;
     background-image: repeating-linear-gradient(90deg, rgb(0, 0, 0) , rgb(34, 42, 53));
@@ -50,8 +51,9 @@ body{
     position: absolute;
     color: rgb(80, 78, 59);
     line-height: 0.1em;
-    left:5em;
+    left:.9em;
     top:.5em;
+    z-index: 0;
     text-shadow: 0 0 5px rgb(255, 255, 255),
              0 0 7px rgb(255, 255, 255),
              0 0 10px rgb(255, 255, 255),
@@ -69,7 +71,7 @@ body{
 
     position:relative;
     /*left: .35em; */
-    left:.7em;
+    left:.8em;
     top:.2em;
 
 }
@@ -89,17 +91,15 @@ body{
 .box{
     background-color:  rgb(32, 32, 32);
     font-family: 'Gruppo', cursive;
-    width: 100%;
     border-radius: 100px 100px 100px 100px;
     color: rgb(255, 255, 255);
-    top:10%;
     position:absolute;
     border-style:solid;
-    height: 8%;
-    bottom: 82%;
-    width: 98%;
-    left: 1%;
-    right:1%;
+    height: 27em;
+    width:35em;
+    left: 25%;
+    top: 11em;
+    z-index: 1;
     box-shadow: 0 0 3px inset rgb(255, 255, 255),
     0 0 7px inset rgb(0, 134, 243),
     0 0 10px inset rgb(0, 110, 255),
@@ -112,14 +112,14 @@ body{
     0 0 25px rgb(255, 255, 255);
 }
 .boxContainer{
-    top:0px;
-    position:relative;
+
 }
+
+
 .menuArea{
     font-family: 'Gruppo', cursive;
     text-align: center;
     margin-top: 0px;
-    bottom: .4em;
     position: relative;
     border-radius: 50px 50px 50px 50px;
     text-shadow: 0 0 3px rgb(255, 255, 255),
@@ -130,12 +130,11 @@ body{
 .menuArea li {
     font-family: 'Gruppo', cursive;
     position:relative;
-    display:inline-block;
-    font-size: 2.7em;
+    display:block;
+    font-size: 7em;
     letter-spacing: .1em;
-    line-height: 1.2em;
-    text-align: center;
-    right:.2em;
+    line-height: .7em;
+    padding-bottom: 0px;
     
 }
 .menuArea a {
@@ -143,90 +142,9 @@ body{
     color: rgb(0, 0, 0);
     font-variant: small-caps;
     font-weight:900;
-    margin-left: .5em;
-    margin-right: .5em;
-  
 }
-
 .menuArea a:hover {
     color: #ffffff;
 }
 
-
-
-
-
-
-
-.github-link{
-
-    top: 10%;
-    position: absolute;
-    color:rgb(255, 255, 255);
-    border: 5px rgb(83, 109, 255) solid;
-    border-radius: 25px 25px 25px 25px;
-    padding:10px 25px 10px 25px;
-    text-shadow: 0 0 5px rgb(255, 255, 255),
-    0 0 7px rgb(255, 188, 72),
-    0 0 10px rgb(255, 188, 72),
-    0 0 21px rgb(255, 255, 255),
-    0 0 42px rgb(255, 255, 255),            
-    0 0 82px rgb(255, 255, 255),
-    0 0 92px rgb(255, 255, 255),
-    0 0 120px rgb(255, 255, 255);
-}
-
-
-
-
-
-
-
-.arrows {
-      width: 60px;
-      height: 72px;
-      position: absolute;
-      left: 50%;
-      margin-left: -30px;
-      bottom: 20px;
-}
-  
-.arrows path {
-      stroke: #ffffff;
-      fill: transparent;
-      stroke-width: 1px;	
-      animation: arrow 2s infinite;
-      -webkit-animation: arrow 2s infinite; 
-}
-  
-@keyframes arrow
-  {
-  0% {opacity:0}
-  40% {opacity:1}
-  80% {opacity:0}
-  100% {opacity:0}
-  }
-  
-@-webkit-keyframes arrow /*Safari and Chrome*/
-  {
-  0% {opacity:0}
-  40% {opacity:1}
-  80% {opacity:0}
-  100% {opacity:0}
-  }
-  
-.arrows path.a1 {
-      animation-delay:-1s;
-      -webkit-animation-delay:-1s; /* Safari 和 Chrome */
-  }
-  
-.arrows path.a2 {
-      animation-delay:-0.5s;
-      -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-  }
-  
-.arrows path.a3 {	
-      animation-delay:0s;
-      -webkit-animation-delay:0s; /* Safari 和 Chrome */
-}
-
+/*540, 760, 912, 1140, 1283,*/
