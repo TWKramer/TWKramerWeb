@@ -120,7 +120,7 @@ p {
 }
 
 #section-d .box:first-child{
-    background: #2690d4;
+    background: #00f7ff;
 }
 
 /*Footer*/
@@ -133,7 +133,7 @@ p {
 }
 
 #main-footer a {
-    color: #2690d4;
+    color: #00c0c0;
     text-decoration: none;
 }
 
