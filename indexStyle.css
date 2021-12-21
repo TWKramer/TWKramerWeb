@@ -28,8 +28,7 @@ p {
     padding: 1em 0;
 }
 .btn{
-    position: absolute;
-    display: inline-block;
+    position: relative;
     background: #333;
     color:#fff;
     text-decoration: none;
@@ -37,8 +36,10 @@ p {
     border: 1px solid #666;
     margin: .5em 0;
     border-radius: 35px;
-    bottom: -17%;
-    right: 1%;
+    height: 6%;
+    width:35%;
+    top: 23.3em;
+
 
 }
 
