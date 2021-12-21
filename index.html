@@ -14,7 +14,14 @@
         <div class="bg-image"></div>
         <div class="content-wrap">
             <h1>Welcome to My Portfolio</h1>
-            <p>The web page is currently under construction as of 20/DEC/2021.</p>
+            <p>This web page is currently under construction as of <span id="datetime"></span>.</p>
+            <script src="script.js"></script>
+            <!--
+            <script>
+                var dt = new Date();
+                document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+            </script>
+            -->
             <a href="#section-b" class="btn">Read More</a>
         </div> 
     </header>
@@ -73,20 +80,20 @@
           <!--section D-->
           <section id="section-d" class="grid">
               <div class="box">
-                  <h2 class="content-title">Contact Us</h2>
+                  <h2 class="content-title">Contact Tim</h2>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam itaque odit tempore assumenda molestiae debitis quisquam similique hic harum vero!</p>
                   <p>tim@twkramer.com</p>
                   </div>
                   <div class="box">
-                      <h2 class="content-title">About Our Company</h2>
+                      <h2 class="content-title">About Me</h2>
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi veniam alias eligendi perferendis delectus consequuntur? Odio, nostrum facere veritatis natus earum magnam officiis nam ipsum nobis! Quas, officia. Fugit, ea.</p>
                     </div>
                 </section>
                 </main>
 
                 <!-- Footer -->
-                <footer id="main-footer" class="grid">
-                    <div>TWKramer Web Solutions</div>
+                <footer id="main-footer" class="grid"> <!--
+                    <div>TWKramer Web Solutions</div> -->
                     <div>Project by <a href="http://twkramer.com"target="_blank">TWKramer Web Solutions</a>
                     </div>
                 </footer>
