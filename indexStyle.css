@@ -28,7 +28,7 @@ p {
     padding: 1em 0;
 }
 .btn{
-    position: relative;
+    position: absolute;
     background: #333;
     color:#fff;
     text-decoration: none;
@@ -37,8 +37,8 @@ p {
     margin: .5em 0;
     border-radius: 35px;
     height: 6%;
-    width:35%;
-    top: 23.3em;
+    bottom: 8%;
+    right: 1%;
 
 
 }
