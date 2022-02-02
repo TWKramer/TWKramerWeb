@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #333;
-    color:#fff;
+    color:rgb(0, 0, 0);
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
@@ -34,15 +34,13 @@ p {
     text-decoration: none;
     padding:1em 1em;
     border: 1px solid #666;
-    margin: .5em 0;
     border-radius: 40px;
-
 
 
 }
 
 .btn:hover{
-    background:#eaeaea;
+    background:#000000;
     color: 333;
 }
 
@@ -50,8 +48,15 @@ p {
 
 #showcase{
     min-height:450px;
-    color:#fff;
+    max-height: 450px;
+    color:rgb(116, 116, 116);
     text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0 0 7px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px #fff,
+    0 0 42px rgb(255, 255, 255);
 }
 
 #showcase .bg-image{
@@ -68,16 +73,23 @@ p {
 
 #showcase .btn{
     color: white;
-    margin-top: 20%;
+    margin-top: 0%;
     opacity: .6;
-    margin-left: 33%;
+    margin-left: 85%;
 
 }
 
 #showcase h1{
     padding-top: 100px;
     padding-bottom: 0;
+
+
+
 }
+#showcase p{
+    margin-top: 10%;
+}
+
 
 #showcase .content-wrap,
 #section-a .content-wrap {
@@ -91,16 +103,46 @@ p {
     color: #333;
     padding-bottom: 2em;
 }
+#section-a1 .content-wrap {
+    padding: 0 1.5em;
+}
+
+#section-a1 {
+    background: #eaeaea;
+    color: rgb(97, 0, 0);
+    padding-bottom: 2em;
+}
+#stockbox1{
+    background-color: green;
+    width: 10%;
+    height: 10%;
+    padding-top: 10%;
+}
+#stockbox2{
+    background-color: orange;
+    width: 10%;
+    height: 10%;
+    padding-top: 10%;
+}
+
 /*Section B*/
 
 #section-b{
     padding: 2em 1em 1em;
+
+
 }
 
 #section-b ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    color: white;
+    text-shadow:
+    0 0 7px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px #fff,
+    0 0 42px rgb(255, 255, 255);
 }
 
 #section-b li {
@@ -111,23 +153,34 @@ p {
 
 .card-content1{
     padding: 1.5em;
-    background: rgb(212, 255, 255);
-    color: rgb(0, 0, 0);
+
+    color: rgb(255, 255, 255);
     border-radius: 5%;
+}
+.card-content1:hover{
+    background:rgb(230, 255, 255);
+    color: 333;
 
 }
 .card-content2{
     padding: 1.5em;
-    background: rgb(255, 218, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 5%;
+}
+.card-content2:hover{
+    background:rgb(255, 227, 255);
+    color: 333;
 
 }
 .card-content3{
     padding: 1.5em;
-    background: rgb(255, 255, 209);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 5%;
+}
+.card-content3:hover{
+    background:rgb(255, 255, 224);
+    color: 333;
+
 
 }
 
