@@ -21,11 +21,13 @@ img{
 h1, h2, h3{
     margin: 0;
     padding: 1em 0;
+
 }
 
 p {
     margin: 0;
     padding: 1em 0;
+
 }
 .btn{
     display: inline-block;
@@ -112,17 +114,17 @@ p {
     color: rgb(97, 0, 0);
     padding-bottom: 2em;
 }
-#stockbox1{
+#stockbox1, #stockbox2{
     background-color: green;
     width: 10%;
     height: 10%;
-    padding-top: 10%;
+    padding: 5%;
+    color:white;
+    display: inline-block
 }
 #stockbox2{
     background-color: orange;
-    width: 10%;
-    height: 10%;
-    padding-top: 10%;
+
 }
 
 /*Section B*/
@@ -157,6 +159,11 @@ p {
     color: rgb(255, 255, 255);
     border-radius: 5%;
 }
+/* this gets rid of the underlining and color changning issue */
+.card-content1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 .card-content1:hover{
     background:rgb(230, 255, 255);
     color: 333;
@@ -167,6 +174,11 @@ p {
     color: rgb(255, 255, 255);
     border-radius: 5%;
 }
+/* this gets rid of the underlining and color changning issue */
+.card-content2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 .card-content2:hover{
     background:rgb(255, 227, 255);
     color: 333;
@@ -176,10 +188,19 @@ p {
     padding: 1.5em;
     color: rgb(255, 255, 255);
     border-radius: 5%;
+    text-decoration: none;
 }
+
+/* this gets rid of the underlining and color changning issue */
+.card-content3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
 .card-content3:hover{
     background:rgb(255, 255, 224);
-    color: 333;
+    text-decoration: none;
 
 
 }
