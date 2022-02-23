@@ -1,0 +1,276 @@
+/* Core Styles */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color:rgb(0, 0, 0);
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+img{
+    display: block;
+    width: 60%;
+    height: auto;
+
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 1em 0;
+
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+
+}
+.btn{
+    display: inline-block;
+    background: #333;
+    color:#fff;
+    text-decoration: none;
+    padding:1em 1em;
+    border: 1px solid #666;
+    border-radius: 40px;
+
+
+}
+
+.btn:hover{
+    background:#000000;
+    color: 333;
+}
+
+/*Header Showcase*/
+
+#showcase{
+    min-height:450px;
+    max-height: 450px;
+    color:rgb(116, 116, 116);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    0 0 7px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px #fff,
+    0 0 42px rgb(255, 255, 255);
+}
+
+#showcase .bg-image{
+    position: absolute;
+    background:#333 url('webPic3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:450px;
+    z-index: -1;
+    opacity: .7;
+}
+
+#showcase .btn{
+    color: white;
+    margin-top: 0%;
+    opacity: .6;
+    margin-left: 85%;
+
+}
+
+#showcase h1{
+    padding-top: 100px;
+    padding-bottom: 0;
+
+
+
+}
+#showcase p{
+    margin-top: 10%;
+}
+
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+    padding: 0 1.5em;
+}
+
+/*Section A*/
+
+#section-a {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+#section-a1 .content-wrap {
+    padding: 0 1.5em;
+}
+
+#section-a1 {
+    background: #eaeaea;
+    color: rgb(97, 0, 0);
+    padding-bottom: 2em;
+}
+#stockbox1, #stockbox2{
+    background-color: green;
+    width: 10%;
+    height: 10%;
+    padding: 5%;
+    color:white;
+    display: inline-block
+}
+#stockbox2{
+    background-color: orange;
+
+}
+
+/*Section B*/
+
+#section-b{
+    padding: 2em 1em 1em;
+
+
+}
+
+#section-b ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-shadow:
+    0 0 7px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0),
+    0 0 21px #fff,
+    0 0 42px rgb(255, 255, 255);
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background: #333;
+    color:#333;
+}
+
+.card-content1{
+    padding: 1.5em;
+
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
+/* this gets rid of the underlining and color changning issue */
+.card-content1 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.card-content1:hover{
+    background:rgb(230, 255, 255);
+    color: 333;
+
+}
+.card-content2{
+    padding: 1.5em;
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
+/* this gets rid of the underlining and color changning issue */
+.card-content2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.card-content2:hover{
+    background:rgb(255, 227, 255);
+    color: 333;
+
+}
+.card-content3{
+    padding: 1.5em;
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+/* this gets rid of the underlining and color changning issue */
+.card-content3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.card-content3:hover{
+    background:rgb(255, 255, 224);
+    text-decoration: none;
+
+
+}
+
+/*Section C*/
+
+#section-c{
+    background: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+/*Section D*/
+
+#section-d .box{
+    padding: 2em;
+    color:#fff;
+}
+
+#section-d .box:first-child{
+    background: #00f7ff;
+}
+
+/*Footer*/
+
+#main-foot {
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+#main-footer a {
+    color: #00c0c0;
+    text-decoration: none;
+}
+
+/*Media Query*/
+
+@media(min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 
+        1fr;
+    }
+
+    #section-a .content-text{
+        columns: 2;
+        column-gap: 2em;
+    }
+
+    #section-a .content-text p {
+        padding-top: 0;
+    }
+
+    .content-wrap, 
+    #section-b ul {
+        grid-column: 2/4;
+    }
+
+    .box, #main-footer div {
+        grid-column: span 2;
+    }
+
+    #section-b ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-b li {
+        width: 31%;
+    }
+}
